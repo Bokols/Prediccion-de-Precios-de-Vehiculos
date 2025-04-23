@@ -17,7 +17,7 @@ with st.sidebar:
     # Imagen de perfil y sección "Sobre mí"
     try:
         profile_img = Image.open("assets/Bo-Kolstrup.png")
-        st.image(profile_img, width=200, use_column_width='auto')
+        st.image(profile_img, width=200, use_container_width=True)  # Changed here
     except Exception as e:
         st.warning(f"No se pudo cargar la imagen de perfil: {str(e)}")
 
