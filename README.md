@@ -1,5 +1,7 @@
 # **Predicción de Precios de Vehículos Usados Utilizando Aprendizaje Automático**
 
+**Prueba el modelo [aquí](https://prediccion-de-precios-de-vehiculos-ijtuu6g5tvusyxuzts3fod.streamlit.app/):**
+
 ## **Introducción**
 
 El objetivo de este proyecto es predecir el precio de vehículos usados basándose en varias características como el año del modelo, la marca, el estado, el tipo de combustible, el kilometraje, el tipo de transmisión y la categoría del vehículo. Se aplican técnicas de **Random Forest**, **Gradient Boosting** y **XGBoost** para desarrollar modelos predictivos. Utilizamos **GridSearchCV** para optimizar los hiperparámetros de estos modelos y evaluamos su rendimiento utilizando el **Error Cuadrático Medio Raíz (RMSE)**.
@@ -103,6 +105,7 @@ Una vez identificado el mejor modelo, lo desplegamos para realizar predicciones 
 
 Además, el modelo entrenado y los codificadores se guardan utilizando **Pickle** para su uso posterior, asegurando que el modelo pueda ser cargado y utilizado para futuras predicciones sin necesidad de reentrenarlo.
 
+
 ## **Tecnologías Utilizadas**
 
 - **Python**: Lenguaje de programación utilizado para el análisis de datos y la construcción de modelos.
@@ -115,3 +118,5 @@ Además, el modelo entrenado y los codificadores se guardan utilizando **Pickle*
 ## **Conclusión**
 
 Este proyecto ha demostrado cómo aplicar técnicas de aprendizaje automático para predecir el precio de vehículos usados. A través del uso de **Random Forest**, **Gradient Boosting**, y **XGBoost**, hemos identificado que **Random Forest** es el modelo más adecuado para esta tarea, logrando el mejor rendimiento con un RMSE de **$1,591.18**.
+
+**Prueba el modelo [aquí](https://prediccion-de-precios-de-vehiculos-ijtuu6g5tvusyxuzts3fod.streamlit.app/):**
