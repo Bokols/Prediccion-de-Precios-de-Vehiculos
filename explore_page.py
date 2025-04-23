@@ -5,8 +5,11 @@ import numpy as np
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\bokol\OneDrive\Desktop\Projects\Predicción de Precios de Vehículos Usados\data\vehicles_us.csv')
+    # Updated to read from GitHub URL
+    url = 'https://raw.githubusercontent.com/Bokols/Prediccion-de-Precios-de-Vehiculos/main/data/vehicles_us.csv'
+    df = pd.read_csv(url)
     
+    # Data cleaning and preprocessing
     df['is_4wd'] = df['is_4wd'].fillna(0)
     df['paint_color'] = df['paint_color'].fillna('unknown')
 
