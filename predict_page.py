@@ -12,7 +12,7 @@ with st.sidebar:
     # Cargar imagen de perfil local
     try:
         profile_img = Image.open("assets/Bo-Kolstrup.png")
-        st.image(profile_img, width=200, use_column_width='auto')
+        st.image(profile_img, width=200, use_container_width=True)
     except Exception as e:
         st.warning(f"No se pudo cargar la imagen de perfil: {str(e)}")
 
