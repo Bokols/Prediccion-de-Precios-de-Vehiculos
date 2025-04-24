@@ -6,7 +6,7 @@
 
 El objetivo de este proyecto es predecir el precio de vehículos usados basándose en varias características como el año del modelo, la marca, el estado, el tipo de combustible, el kilometraje, el tipo de transmisión y la categoría del vehículo. Se aplican técnicas de **Random Forest**, **Gradient Boosting** y **XGBoost** para desarrollar modelos predictivos. Utilizamos **GridSearchCV** para optimizar los hiperparámetros de estos modelos y evaluamos su rendimiento utilizando el **Error Cuadrático Medio Raíz (RMSE)**.
 
-Este proyecto incluye varias etapas, desde el **Análisis Exploratorio de Datos (EDA)** hasta la **entrenamiento y optimización de modelos**, con el enfoque en lograr el mejor modelo para predecir los precios de los vehículos.
+Este proyecto incluye varias etapas, desde el **Análisis Exploratorio de Datos (EDA)** hasta el **entrenamiento y optimización de modelos**, con enfoque en lograr el mejor modelo para predecir los precios de los vehículos.
 
 ## **Análisis Exploratorio de Datos (EDA)**
 
